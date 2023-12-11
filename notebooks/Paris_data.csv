@@ -1,4 +1,4 @@
-name,empty_slots,free_bikes,latitude,longitude,timestamp,lat&lon
+name_of_station,empty_slots,free_bikes,latitude,longitude,timestamp,lat&lon
 Benjamin Godard - Victor Hugo,32,3,48.865983,2.275725,2023-12-04T04:49:10.102000Z,48.865983_2.275725
 André Mazet - Saint-André des Arts,33,21,48.85375581057431,2.3390958085656166,2023-12-04T04:49:09.860000Z,48.853756_2.339096
 Faubourg Du Temple - Republique,26,11,48.867872484749,2.3648982158072,2023-12-04T04:49:07.405000Z,48.867872_2.364898
