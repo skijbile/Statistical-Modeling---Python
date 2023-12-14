@@ -9,6 +9,19 @@ Step 1 : This part was to pull the data from API's where all three API's were ve
 
 Step 2: There was a lot of back and forth within each notebook to make sure that the information is presented correctly in each of the data frames and also making a lat_lon column which would act as a primary_key along with any other column so that each row was a unique value.
 
+You can find all the csv files created and the json files from all the api's in the data folder along with the database created with SQlite
+
+Description of each notebook in order of process available in the notebooks folder:
+
+city_bikes.ipynb - This has the steps to request data from the city bikes api, and pasrse through the json files to get relevant information for the city of choice(Paris).
+
+yelp_foursquare_EDA.ipynb -  This note book contains the process of using the latitude and longitude from the city bikes data and acquiring the related businesses in the area specified and providing a comparison of the the two api's based on the results returned. 
+
+joining_data.ipynb - Here I connected the information from city_bikes and yelp api's and performed some EDA and plotts before creating a model.
+
+model-building.ipynb - In this notebook i perfomed backward selection method to build a regression model and note down the obeservations.
+
+
 ## Results
 I chose Paris as my city and I soon realised that my data set was too big as the city I chose was a big one , I limited my data to  the first 500 data points to make it easier to pull data from the other api's. I found that yelp api though limited to only the food and beverage industry gave a lot more data with regards to the business in comparision to the four_sq api which has multiple parameters and categories on which you can get geo-graphical related results in and around the set parameters.
 
